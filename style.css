@@ -1,0 +1,54 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+header {
+    background-color: #b30000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #800000;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 10px;
+    display: block;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+section.content {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+footer {
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
